@@ -35,6 +35,8 @@ h3 {
 }
 h1 {
     color: #41464b;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /*====================================================
@@ -62,7 +64,7 @@ h1 {
     /* text-align: center; */
 }
 
-#home-heading h3 {
+#home-heading h1 {
     color: #fff;
     font-size: 55px;
     font-weight: 700;
@@ -163,8 +165,8 @@ h1 {
     padding: 60px 0 60px 0;
 }
 
-.content-title h3 {
-    font-size: 30px;
+.content-title h1 {
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     margin: 0 0 30px 0;
@@ -180,10 +182,11 @@ h1 {
 }
 
 .content-title-underline {
-    width: 30px;
+    width: 100px;
     height: 3px;
     background-color: #34c6d3;
-    margin: 0 auto 30px auto;
+    margin: 15px auto 30px auto;
+   
 }
 
 
@@ -194,7 +197,7 @@ h1 {
 .service-item {
     padding: 20px 0 20px 0;
     margin-bottom: 20px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .service-item-icon i {
@@ -207,10 +210,10 @@ h1 {
     text-align: center;
 }
 
-.service-item:hover .service-item-icon i {
+/* .service-item:hover .service-item-icon i {
     color: #fff;
     background-color: #34c6d3;
-}
+} */
 
 .service-item-title h3 {
     font-size: 20px;
@@ -222,8 +225,26 @@ h1 {
     margin: 0;
     padding-left: 85px;
 }
-
-
+#title1{
+    font-weight: bold;
+}
+.experience li{
+    font-size:16px;
+    margin-left: -2rem;
+    text-align: justify;
+    line-height: 3rem;
+}
+ul.languages, ul.TechTool, .iSkills{
+    font-size:16px;
+   margin-left:2rem;
+   line-height: 3rem;;
+}
+.line1{
+    border-top:1px solid #c8e9ec;
+}
+.Edu{
+    padding-left:2rem
+}
 /*====================================================
                        ABOUT
 ======================================================*/
@@ -253,16 +274,19 @@ h1 {
     vertical-align: middle;
 }
 
-#about .content-title h3 {
+/* #about .content-title h1 {
     text-align: left;
 }
 
 #about .content-title-underline {
     margin: 0 0 30px 0;
-}
+} */
 
 #about-desc p {
     margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 3.5rem;
 }
 
 
@@ -278,8 +302,16 @@ h1 {
 .img-wrapper {
     overflow: hidden;
 }
+.img-wrapper img{
+    border-radius: 10px;
+    border:2px solid gray;
+    width:65%;
+    padding:20px;
+    margin: 3rem auto;
+    cursor: pointer;
+}
 
-.img-wrapper img {
+/* .img-wrapper img {
     -webkit-transition: -webkit-transform .5s ease;
     transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
@@ -290,7 +322,7 @@ h1 {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
     cursor: zoom-in;
-}
+} */
 
 
 
