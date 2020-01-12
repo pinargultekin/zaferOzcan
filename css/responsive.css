@@ -52,6 +52,19 @@
         width: 100%;
         height: 350px;
     }
+    /* Tech Skills */
+    .skills-i{
+        float:right;
+    }
+    .col-md-3{
+        width:300px;
+        height: 300px;
+        float:left;
+        margin: 2rem;
+    }
+    .workPic{
+        margin-left:5rem;
+    }
     /* Stats */
     .stats-item {
         padding: 20px 0;
@@ -97,6 +110,16 @@
         width: 100%;
         height: 350px;
     }
+    /* Technical Skills */
+    .col-md-3{
+        width:275px;
+        height: 275px;
+        float:left;
+        margin: 2rem;
+    }
+    .workPic{
+        margin-left:5rem;
+    }
     /* Work */
     .img-wrapper img {
         min-width: 100%;
@@ -129,8 +152,30 @@
 
 @media (max-width: 480px) {
     /* OK */
+    /* Technical Skills */
+    .col-md-3{
+        width:200px;
+        height: 200px;
+        float:left;
+        margin: 2rem;
+    }
+    .overlay h2{
+        font-size: 20px;;
+    }
+    .workPic{
+        margin-left:5rem;
+    }
+    .img-responsive{
+        width:150px;
+        height: 150px;
+    }
 }
-
+@media (max-width: 375px) {
+     /* Work */
+     #work{
+        margin-top:18rem;
+    }
+}
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
@@ -147,6 +192,10 @@
     /* About */
     #about-content-box {
         margin-top: 40px;
+    }
+    /* Work */
+    #work{
+        margin-top:18rem;
     }
     /* Testimonials */
     .testimonial img {
